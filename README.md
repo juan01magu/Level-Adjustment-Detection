@@ -31,6 +31,7 @@ This project detects and analyzes level adjustments in data or signals. It uses 
 
 ## Data Format
 The data should be in a tabular format with three columns, that represent level, velocity and flow in that order.
+It should also be passed the diameter of the pipe where that data ahs been collected. Pass it in the last for digits of the filename. Example: filename_0032 = a 32 inch pipe Diameter
 
 ## Configuration
    * The script may have parameters that can be adjusted, such as the sensitivity of the shift detection.  These will be detailed in the script itself.
